@@ -20,7 +20,7 @@ body {
   top: 30%;
   z-index: 2;
   margin: 0 auto;
-  max-width: 720px;
+  max-width: 900px;
   text-align: center;
 }
 
@@ -36,7 +36,6 @@ h1 {
     font-size: 96px;
     font-family: helvetica;
     letter-spacing: 3px;
-    box-shadow: 0 0 30px #fff;
 }
 
 h2 {
@@ -45,9 +44,10 @@ h2 {
 }
 
 nav {
-  background-color: black;
-  padding: 8px;
+  background-color: grey;
   color: white;
+  font-family: helvetica;
+  padding: 8px;
 }
 
 ul {
