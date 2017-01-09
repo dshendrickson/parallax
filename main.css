@@ -1,0 +1,63 @@
+html,
+body,
+div,
+h1,
+p,
+a,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+
+html,
+body {
+  height: 100%;
+}
+
+.content {
+  position: relative;
+  top: 30%;
+  z-index: 2;
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+.video {
+  position: fixed;
+  top: 60%; left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 96px;
+    font-family: helvetica;
+    letter-spacing: 3px;
+}
+
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: grey;
+  color: white;
+  font-family: helvetica;
+  padding: 8px;
+}
+
+ul {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin: 20px;
+}
